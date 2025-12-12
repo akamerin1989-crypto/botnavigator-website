@@ -8,19 +8,19 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
-    background-color: #0d1117;
-    color: #dfe6ed;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
     line-height: 1.6;
 }
 
 /* CSS variables */
 :root {
-    --primary-color: #0d6efd;
-    --secondary-color: #198754;
-    --bg-dark: #0d1117;
-    --bg-light: #1e2530;
-    --text-light: #dfe6ed;
-    --accent-color: #3ea6ff;
+    ---primary-color: #2d62d3;
+   --secondary-color: #00b78a;
+   --bg-dark: #0c0f16;
+   --bg-light: #121825;
+   --text-light: #e0e5ec;
+   --accent-color: #4ea8de;
     --radius: 8px;
     --transition: all 0.3s ease;
 }
