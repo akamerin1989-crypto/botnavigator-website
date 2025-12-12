@@ -12,15 +12,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p1zQo4F6BlgOGpSQQPT1T8n0H0bTYGoBUZHPFeh1vNPxPOKsiBiLEmaje7giwWC5K0OEVMs0sAqXfGK8RQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
             <style>
-      .logo-img {
+       .logo-img {
         display: none;
-      }
-      .hero-logo {
-        margin-bottom: 3rem;
-      }
-      .hero-logo-img {
+    }
+    .hero-logo {
+        display: none;
+    }
+    .hero-logo-img {
         height: 180px;
-      }
+    }
+    .hero-brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .robot-icon {
+        font-size: 4rem;
+        margin-right: 1rem;
+        color: var(--accent-color);
+    }
+    .brand-name {
+        font-size: 3rem;
+        font-weight: 700;
+        color: var(--text-light);
+    }
+    .hero-section {
+        background-color: var(--bg-dark);
+    }
+    .hero-bg-overlay {
+        display: none;
+    }
+    .hero-text h2 {
+        font-size: 2rem;
+    }
+
     </style>
 </head>
 <body>
@@ -47,8 +73,12 @@
                     <div class="hero-logo">
                     <img src="logo.png" alt="BotNavigator Agency logo" class="hero-logo-img">
             </div>
-    <div class="hero-text">
-                <h1>Автоматизируйте общение с клиентами, 24/7</h1>
+         <div class="hero-brand">
+            <i class="fas fa-robot robot-icon"></i>
+            <span class="brand-name">BotNavigator</span>
+        </div>
+            <div class="hero-text">
+                <h2>h2томатизируйте общение с клиентами, 24/7</h2>
                 <p>Создайте Telegram-бота для вашего бизнеса с BotNavigator.</p>
             </div>
         </div>
